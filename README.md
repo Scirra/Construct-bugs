@@ -28,7 +28,7 @@ Please save a single-file Construct 3 project. These have the file extension **.
 
 You can save a project like this by choosing **Menu** -> **Project** -> **Save As** -> **Download a copy**.
 
-The .c3p file can be shared publicly on free file hosting services like [Dropbox](https://www.dropbox.com), [https://onedrive.live.com](OneDrive) or [https://drive.google.com](Google Drive). Alternatively if you rename the .c3p ending to .zip, it can be attached to the GitHub issue. (GitHub will not accept a file ending in .c3p)
+The .c3p file can be shared publicly on free file hosting services like [Dropbox](https://www.dropbox.com), [OneDrive](https://onedrive.live.com) or [Google Drive](https://drive.google.com). Alternatively if you rename the .c3p ending to .zip, it can be attached to the GitHub issue. (GitHub will not accept a file ending in .c3p)
 
 If you choose a different file host and it spams us with ads or asks us to sign up or enter information, we will not investigate the bug. We recommend the three services mentioned previously since they work well.
 
