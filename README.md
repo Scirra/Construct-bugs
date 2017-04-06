@@ -1,4 +1,4 @@
-# Construct-3-bugs
+# Construct 3 bug reports
 
 This is where we handle public bug report submissions for [Construct 3](https://www.construct.net/).
 
