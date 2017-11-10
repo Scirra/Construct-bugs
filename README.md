@@ -36,6 +36,13 @@ If you choose a different file host and it spams us with ads or asks us to sign 
 
 To avoid reporting bugs we've already fixed, please only test the latest version of Construct 3, including the latest beta release.
 
+## Voting on bugs
+You can add a "+1" reaction to a bug report to indicate you are also interested in that bug. When viewing an issue, there is an "Add your reaction" button in the top-right corner. Click on that and select the "thumbs up" (+1) reaction.
+
+This provides a basic voting system, so we can better prioritise issues that many people have voted for.
+
+You can also subscribe to issues using the button to the right of the issue. This will create a notification on GitHub whenever the issue is updated.
+
 # Bug report FAQ
 
 Here are answers to common questions or concerns during the bug report process. These really are asked frequently, so it's worth a look.
