@@ -8,6 +8,8 @@
 
 ## Steps to reproduce
 
+*There is no need to explain how you made the attached project. Just explain what to do to with it to observe the issue.*
+
 1.
 2.
 3.
