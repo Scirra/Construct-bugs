@@ -1,14 +1,14 @@
 ## Problem description
 
-*Enter a concise description of your problem here*
+<!-- Enter a concise description of your problem here -->
 
 ## Attach a .c3p
 
-*A minimal Construct 3 project (.c3p) is required to be attached. Please see the guidelines*
+<!-- A minimal Construct 3 project (.c3p) is required to be attached. Your issue will likely be closed without investigation if you don't provide one. Please see the guidelines -->
 
 ## Steps to reproduce
 
-*There is no need to explain how you made the attached project. Just explain what to do to with it to observe the issue.*
+<!-- There is no need to explain how you made the attached project. Just explain what to do to with it to observe the issue. -->
 
 1.
 2.
@@ -16,11 +16,11 @@
 
 ## Observed result
 
-*What do you see happen?*
+<!-- What do you see happen? -->
 
 ## Expected result
 
-*What did you expect to happen instead?*
+<!-- What did you expect to happen instead? -->
 
 ## Affected browsers
 
@@ -31,7 +31,7 @@
 
 ## System details
 
-*If you see a crash report dialog, please copy and paste it to where it says "PASTE HERE" below. Otherwise please go to **Menu** -> **About** -> **Platform information** and paste that information there instead.*
+<!-- If you see a crash report dialog, please copy and paste it to where it says "PASTE HERE" below. Otherwise please go to Menu > About > Platform information and paste that information there instead. -->
 
 <details><summary>View details</summary>
 
