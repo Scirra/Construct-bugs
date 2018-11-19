@@ -12,7 +12,7 @@ Many bug reports are actually just mistakes in events, or misunderstood features
 
 ## Use the bug report template
 
-The bug submission page is pre-filled with a template. **We need all this information to help you.** Do not delete it. Please provide as much of the requested information as you can.
+The bug submission page is pre-filled with a template. **We need all this information to help you.** Do not delete it. Please provide as much of the requested information as you can, including the system details or crash report information with every report.
 
 ## A minimal project demonstrating the issue is required
 
@@ -28,9 +28,23 @@ Please save a single-file Construct 3 project. These have the file extension **.
 
 You can save a project like this by choosing **Menu** -> **Project** -> **Save As** -> **Download a copy**.
 
-The .c3p file can be shared publicly on free file hosting services like [Dropbox](https://www.dropbox.com), [OneDrive](https://onedrive.live.com) or [Google Drive](https://drive.google.com). Alternatively if you rename the .c3p ending to .zip, it can be attached to the GitHub issue. (GitHub will not accept a file ending in .c3p)
+The .c3p file can be shared publicly on free file hosting services like [Dropbox](https://www.dropbox.com), [OneDrive](https://onedrive.live.com) or [Google Drive](https://drive.google.com). Alternatively if you add the file to a zip, it can be attached to the GitHub issue. (GitHub will not accept a file ending in .c3p. Also, Construct 3 can still directly open projects from a zip if it contains a single .c3p file.)
 
 If you choose a different file host and it spams us with ads or asks us to sign up or enter information, we will not investigate the bug. We recommend the three services mentioned previously since they work well.
+
+### The ideal project attachment
+
+We deal with thousands of reports, and many are difficult problems. To help us quickly and effectively deal with your issue, it is ideal to provide a project demonstrating the issue which:
+
+- has the fewest events and objects possible
+- is automatic (not requiring any user input, since it varies a lot between people and simplifies the steps to reproduce)
+- reproduces the problem as quickly as possible (within a couple of seconds)
+
+## A project is more useful than a video
+
+Often users attach videos with bug reports. This is not always as useful as you might think: we cannot debug videos to figure out what is going on. Attaching a project is far more useful. Additionally reports with well-written steps to reproduce are usually quicker to deal with, which is important given that we deal with thousands of reports.
+
+In general you can probably skip attaching a video unless we ask for one. They can be helpful if we are having trouble reproducing the problem from the written steps to reproduce, since we can watch exactly what you are doing. If you don't mind sparing the time, you could attach a video alongside written steps to reproduce just in case we need it.
 
 ## Please only test the latest version of Construct 3
 
