@@ -24,7 +24,7 @@
 
 ## First affected release
 
-<-- Identify the specific Construct version where the issue first started happening, e.g. r123. If you're not sure please go back and check old releases, and be sure to check beta releases too. -->
+<!-- Identify the specific Construct version where the issue first started happening, e.g. r123. If you're not sure please go back and check old releases, and be sure to check beta releases too. -->
 
 ## Affected browsers/platforms
 
