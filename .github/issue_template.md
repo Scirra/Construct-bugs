@@ -8,7 +8,7 @@
 
 ## Steps to reproduce
 
-<!-- There is no need to explain how you made the attached project. Just explain what to do to with it to observe the issue. -->
+<!-- There is no need to explain how you made the attached project. Just explain what to do to with the project to observe the issue. -->
 
 1.
 2.
@@ -22,7 +22,13 @@
 
 <!-- What did you expect to happen instead? -->
 
-## Affected browsers
+## First affected release
+
+<-- Identify the specific Construct version where the issue first started happening, e.g. r123. If you're not sure please go back and check old releases, and be sure to check beta releases too. -->
+
+## Affected browsers/platforms
+
+<!-- It's helpful to test as many browsers, platforms or export options as possible. For example an issue occurs in an Android app, does it also occur in Chrome on Android? How about Chrome on Windows? How about Firefox? etc. -->
 
 * Chrome: yes/no
 * Firefox: yes/no
