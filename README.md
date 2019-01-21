@@ -14,6 +14,10 @@ Many bug reports are actually just mistakes in events, or misunderstood features
 
 The bug submission page is pre-filled with a template. **We need all this information to help you.** Do not delete it. Please provide as much of the requested information as you can, including the system details or crash report information with every report.
 
+## Only mention one problem per issue
+
+Please only describe one problem in each issue you create. It's very confusing to have two separate descriptions at once and usually means you skipped some important information for one of them. Additionally we have useful tools to assign and track issues, but these are only effective if an issue refers to a single problem.
+
 ## A minimal project demonstrating the issue is required
 
 Wherever possible, please include a **minimal project** demonstrating the issue. It is very common that the developers cannot reproduce a problem from the description alone. Including a minimal project makes it **much more likely the bug can be fixed**. You should **always** include a minimal project, even if the bug seems really simple, or you are an experienced user, because it **always helps**.
@@ -57,20 +61,8 @@ This provides a basic voting system, so we can better prioritise issues that man
 
 You can also subscribe to issues using the button to the right of the issue. This will create a notification on GitHub whenever the issue is updated.
 
-## Don't troll the developers
-Our staff are here to help you. We have experienced engineers who have dealt with thousands of bug reports. The vast majority of reporters are helpful and are happy to work with us. However if you don't co-operate or are unnecessarily combative in dealing with staff, we will close your report and stop investigating it. We will resume investigation on the report if someone files it complying with the guidelines.
-
-The following list are behaviors we will see as trolling. If too many of these behaviors occur in one report it is liable to be closed.
-
-- Insisting developers investigate the issue over holidays or weekends. Please be patient.
-- Repeatedly nagging developers to investigate an issue ahead of schedule, or repeatedly bumping the thread.
-- Exaggerating the impact of an issue, or otherwise acting as if your issue is so serious, it is the end of the world. This is rarely the case, especially if the issue is not new. Diverting attention can also end up postponing work on other genuinely more serious issues, harming other users. It is also unnecessarily aggravating.
-- Constantly treating the developers with scepticism or distrust. We are not perfect, but we are experienced engineers. Please have a little faith. Sometimes we discuss the issue and make educated guesses. However there is no need to try to argue us down every time we say something; it is simply a waste of everyone's time.
-- Throwing in unrelated bugs or gripes. Please don't muddy the waters by talking about unrelated issues, complaining about why your favourite feature is not implemented yet, etc. Fixing a bug is difficult enough as it is, and having a concise, focused approach gives us the best chance of fixing it.
-- Blaming us before the issue has been fully identified. All software depends on a wide range of third parties, such as OS developers, compiler and library authors, driver developers, browser makers, and so on. We do routinely fix or work around issues which are not directly our fault, in order to try to make sure Construct works as well as possible. If we point to a third-party cause, it does not necessarily mean we are trying to avoid fixing it, although it may make it significantly more difficult. Our normal routine investigation simply involves identifying the root cause before we proceed to mitigating it. There is no reason to launch in to a rant about how it's all our fault. Often this is simply incorrect and may also cause embarrassment.
-- Demanding a resolution when none is practical. Some issues will have no good resolution, such as an issue caused by a specific graphics driver version on a particular OS and hardware combination. It is not feasible to investigate such issues, particularly if the evidence suggests the problem is not in our code. It is also unreasonable to demand an explanation of the inner workings of these other pieces of software we've had no part in developing.
-- Accusing us of not responding or not caring about the issue, particularly after we have already put effort in to responding or investigating it
-- Arguing about whether or not what you did qualifies as trolling or not ("meta-trolling"). It is up to the judgement of our staff.
+## Community guidelines
+Our staff are here to help you. We have experienced engineers who have dealt with thousands of bug reports. The vast majority of reporters are helpful and are happy to work with us. However if you don't co-operate or are unnecessarily combative in dealing with staff, we will close your report and stop investigating it. We will resume investigation on the report if someone files it complying with the guidelines. For more details please refer to the [Forum & Community guidelines](https://www.construct.net/en/forum/general/open-topic-33/forum-community-guidelines-141035) which also apply to bug reports.
 
 # Bug report FAQ
 
