@@ -1,3 +1,6 @@
+
+<!-- You must use this template or your issue will be closed without investigation. Please see the guidelines. -->
+
 ## Problem description
 
 <!-- Enter a concise description of your problem here -->
@@ -22,22 +25,21 @@
 
 <!-- What did you expect to happen instead? -->
 
-## First affected release
+## More details
+<!-- Providing this information will make it more likely the issue you are reporting can be fixed quickly. -->
 
-<!-- Identify the specific Construct version where the issue first started happening, e.g. r123. If you're not sure please go back and check old releases, and be sure to check beta releases too. -->
+<!-- It's helpful to test as many browsers, platforms or export options as possible. For example an issue occurs in an Android app, does it also occur in Chrome on Windows? How about Firefox? etc. -->
 
-## Affected browsers/platforms
+**Affected browsers/platforms:** <!-- Chrome/Firefox/Safari, Windows/macOS/Android, etc -->
 
-<!-- It's helpful to test as many browsers, platforms or export options as possible. For example an issue occurs in an Android app, does it also occur in Chrome on Android? How about Chrome on Windows? How about Firefox? etc. -->
+<!-- Identifying the first version the issue started happening can help resolve the issue more quickly. -->
 
-* Chrome: yes/no
-* Firefox: yes/no
-* Edge: yes/no
-* Safari: yes/no
+**First affected release:** <!-- e.g. first started happening in r123 -->
 
 ## System details
 
-<!-- If you see a crash report dialog, please copy and paste it to where it says "PASTE HERE" below. Otherwise please go to Menu > About > Platform information and paste that information there instead. -->
+<!-- If you see a crash report dialog, please copy and paste it to where it says "PASTE HERE" below. -->
+<!-- Otherwise please go to Menu > About > Platform information and paste that information there instead. -->
 
 <details><summary>View details</summary>
 
