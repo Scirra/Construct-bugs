@@ -11,7 +11,7 @@
 
 ## Steps to reproduce
 
-<!-- There is no need to explain how you made the attached project. Just explain what to do to with the project to observe the issue. -->
+<!-- These steps are essential for us to be able to help you. Usually it is impossible to investigate reports unless they include steps we can follow ourselves, so please do your best to provide specific steps. There is no need to explain how you made the attached project - just explain what to do to with the project to observe the issue. -->
 
 1.
 2.
@@ -34,7 +34,7 @@
 
 <!-- Identifying the first version the issue started happening can help resolve the issue more quickly. -->
 
-**First affected release:** <!-- e.g. first started happening in r123 -->
+**First affected release:** <!-- e.g. worked in r122 but broke in r123 -->
 
 ## System details
 
