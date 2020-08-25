@@ -4,7 +4,11 @@ This is where we handle public bug report submissions for [Construct 3](https://
 
 # Read these guidelines or your bug may be closed!
 
-Many users file bugs which are useless because they don't contain enough information for us to do anything about them. We just close these bugs without investigating them. Please follow these guidelines to avoid having your bug closed and help make sure we can fix the bug you're reporting.
+Unfortunately, many users file bugs which are useless because they don't contain enough information for us to do anything about them. Our policy is to close these bugs without investigating them. Please follow these guidelines to avoid having your bug closed and help make sure we can fix the bug you're reporting.
+
+## Always follow the guidelines, every time
+
+Most bugs are not actually obvious, even if they look obvious to you. Usually issues actually only happen in a very specific set of circumstances, which you happen to have. These guidelines are designed to make sure we can figure out what's going on. So please never skip any part of the guidelines, no matter how obvious you think the problem is, or how many issues you've filed before - skipping any details will likely make it much more difficult to help you.
 
 ## Make sure it's really a bug
 
@@ -12,7 +16,7 @@ Many bug reports are actually just mistakes in events, or misunderstood features
 
 ## Use the bug report template
 
-The bug submission page is pre-filled with a template. **We need all this information to help you.** Do not delete it. Please provide as much of the requested information as you can, including the system details or crash report information with every report.
+The bug submission page is pre-filled with a template. Do not delete it - **we need all this information to be able to help you.** Please provide as much of the requested information as you can, including the system details or crash report information with every report.
 
 ## Only mention one problem per issue
 
@@ -20,7 +24,7 @@ Please only describe one problem in each issue you create. It's very confusing t
 
 ## A minimal project demonstrating the issue is required
 
-Wherever possible, please include a **minimal project** demonstrating the issue. It is very common that the developers cannot reproduce a problem from the description alone. Including a minimal project makes it **much more likely the bug can be fixed**. You should **always** include a minimal project, even if the bug seems really simple, or you are an experienced user, because it **always helps**.
+Wherever possible, please include a **minimal project** demonstrating the issue. If you do not include a project, your report will most likely be closed without investigation, even if you provided a written description or think the problem is obvious. This is because without a project file, we almost always find everything working fine. Usually there is something specific to your project that actually causes the problem, and it's impossible to help without it. Therefore attaching a project is required.
 
 The project should be as minimal as possible, using the **fewest events and objects possible** to demonstrate the problem. Create a new empty project and try to reproduce the problem from scratch. Alternatively backup your project and delete as much as possible until the problem is isolated. Please continue as far as you can deleting any unrelated objects, event, layouts etc.
 
@@ -32,9 +36,9 @@ Please save a single-file Construct 3 project. These have the file extension **.
 
 You can save a project like this by choosing **Menu** -> **Project** -> **Save As** -> **Download a copy**.
 
-The .c3p file can be shared publicly on free file hosting services like [Dropbox](https://www.dropbox.com), [OneDrive](https://onedrive.live.com) or [Google Drive](https://drive.google.com). Alternatively if you add the file to a zip, it can be attached to the GitHub issue. (GitHub will not accept a file ending in .c3p. Also, Construct 3 can still directly open projects from a zip if it contains a single .c3p file.)
+The .c3p file can be shared publicly on free file hosting services like [Dropbox](https://www.dropbox.com), [OneDrive](https://onedrive.live.com) or [Google Drive](https://drive.google.com). Alternatively if you add the file to a zip, or rename the .c3p extension to .zip, it can be attached to the GitHub issue. (GitHub will not accept a file ending in .c3p. Also, Construct 3 can still directly open projects from a zip if it is actually a .c3p file.)
 
-If you choose a different file host and it spams us with ads or asks us to sign up or enter information, we will not investigate the bug. We recommend the three services mentioned previously since they work well.
+If you choose a different file host and it spams us with ads, asks us to sign up or enter information, or expires by the time we look at it, we will not investigate the bug. We recommend the three services mentioned previously since they work well.
 
 ### The ideal project attachment
 
@@ -52,14 +56,7 @@ In general you can probably skip attaching a video unless we ask for one. They c
 
 ## Please only test the latest version of Construct 3
 
-To avoid reporting bugs we've already fixed, please only test the latest version of Construct 3, including the latest beta release.
-
-## Voting on bugs
-You can add a "+1" reaction to a bug report to indicate you are also interested in that bug. When viewing an issue, there is an "Add your reaction" button in the top-right corner. Click on that and select the "thumbs up" (+1) reaction.
-
-This provides a basic voting system, so we can better prioritise issues that many people have voted for.
-
-You can also subscribe to issues using the button to the right of the issue. This will create a notification on GitHub whenever the issue is updated.
+To avoid reporting bugs we've already fixed, please only test the latest version of Construct 3, including the latest beta release. You can find [all Construct releases here](https://www.construct.net/en/make-games/releases).
 
 ## Community guidelines
 Our staff are here to help you. We have experienced engineers who have dealt with thousands of bug reports. The vast majority of reporters are helpful and are happy to work with us. However if you don't co-operate or are unnecessarily combative in dealing with staff, we will close your report and stop investigating it. We will resume investigation on the report if someone files it complying with the guidelines. For more details please refer to the [Forum & Community guidelines](https://www.construct.net/en/forum/general/open-topic-33/forum-community-guidelines-141035) which also apply to bug reports.
@@ -74,7 +71,7 @@ You need to follow all the guidelines in this post for the developers to actuall
 
 ## You closed my report without investigating it. I'm offended!
 
-Please do not be offended; we deal with large numbers of bug reports and our aim is to deal with them as efficiently as possible. We want to make sure you get in to the habit of filing useful, detailed, actionable bug reports which we can diagnose and fix quickly. This benefits you as well, since you are more likely to get your bug fixed, and sooner. So it is in everyone's interest that you learn to follow the guidelines to the fullest extent possible for every bug report. We may unceremoniously say that it is closed without investigation, but that is probably one out of 10 or 20 that day, and we want to highlight how you need to help us help you.
+Please do not be offended; we deal with large numbers of bug reports and our aim is to deal with them as efficiently as possible. We want to make sure you get in to the habit of filing useful, detailed, actionable bug reports which we can diagnose and fix quickly. This benefits you as well, since you are more likely to get your bug fixed, and sooner. So it is in everyone's interest that you learn to follow the guidelines to the fullest extent possible for every bug report. We may unceremoniously say that it is closed without investigation, but that is probably one out of several that day, and we want to highlight how you need to help us help you.
 
 ## My report was closed for not following the guidelines. What should I do next?
 
@@ -103,8 +100,6 @@ Chromium (Google Chrome, NW.js, Cordova on Android): [crbug.com](https://crbug.c
 NW.js (issues that happen in NW.js only, and not the other Chromium-based platforms): [NW.js issues](https://github.com/nwjs/nw.js/issues)
 
 Firefox: [Mozilla Bugzilla](https://bugzilla.mozilla.org/)
-
-Edge / Windows Store apps: [EdgeHTML issue tracker](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/)
 
 Safari (Mac, iOS, Cordova on iOS): [WebKit Bugzilla](https://bugs.webkit.org/)
 
