@@ -14,6 +14,10 @@ Most bugs are not actually obvious, even if they look obvious to you. Usually is
 
 Many bug reports are actually just mistakes in events, or misunderstood features. Please double-check your events and the documentation.
 
+## Please check the latest version of Construct 3
+
+To avoid reporting bugs we've already fixed, please verify the issue happens in the latest version of Construct 3, including the latest beta release. You can find [all Construct releases here](https://www.construct.net/en/make-games/releases).
+
 ## Use the bug report template
 
 The bug submission page is pre-filled with a template. Do not delete it - **we need all this information to be able to help you.** Please provide as much of the requested information as you can, including the system details or crash report information with every report.
@@ -53,10 +57,6 @@ We deal with thousands of reports, and many are difficult problems. To help us q
 Often users attach videos with bug reports. This is not always as useful as you might think: we cannot debug videos to figure out what is going on. Attaching a project is far more useful. Additionally reports with well-written steps to reproduce are usually quicker to deal with, which is important given that we deal with thousands of reports.
 
 In general you can probably skip attaching a video unless we ask for one. They can be helpful if we are having trouble reproducing the problem from the written steps to reproduce, since we can watch exactly what you are doing. If you don't mind sparing the time, you could attach a video alongside written steps to reproduce just in case we need it.
-
-## Please only test the latest version of Construct 3
-
-To avoid reporting bugs we've already fixed, please only test the latest version of Construct 3, including the latest beta release. You can find [all Construct releases here](https://www.construct.net/en/make-games/releases).
 
 ## Community guidelines
 Our staff are here to help you. We have experienced engineers who have dealt with thousands of bug reports. The vast majority of reporters are helpful and are happy to work with us. However if you don't co-operate or are unnecessarily combative in dealing with staff, we will close your report and stop investigating it. We will resume investigation on the report if someone files it complying with the guidelines. For more details please refer to the [Forum & Community guidelines](https://www.construct.net/en/forum/general/open-topic-33/forum-community-guidelines-141035) which also apply to bug reports.
