@@ -16,7 +16,7 @@ Many bug reports are actually just mistakes in events, or misunderstood features
 
 ## Please check the latest version of Construct 3
 
-To avoid reporting bugs we've already fixed, please verify the issue happens in the latest version of Construct 3, including the latest beta release. You can find [all Construct releases here](https://www.construct.net/en/make-games/releases).
+To avoid reporting bugs we've already fixed, please verify the issue happens in the latest version of Construct 3, including the [latest beta release](https://editor.construct.net/beta). You can find [all Construct releases here](https://www.construct.net/en/make-games/releases).
 
 ## Use the bug report template
 
