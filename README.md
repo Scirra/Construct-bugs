@@ -1,6 +1,6 @@
-# Construct 3 bug reports
+# Construct bug reports
 
-This is where we handle public bug report submissions for [Construct 3](https://www.construct.net/).
+This is where we handle public bug report submissions for [Construct](https://www.construct.net/).
 
 # Read these guidelines or your bug may be closed!
 
@@ -14,9 +14,9 @@ Most bugs are not actually obvious, even if they look obvious to you. Usually is
 
 Many bug reports are actually just mistakes in events, or misunderstood features. Please double-check your events and the documentation.
 
-## Please check the latest version of Construct 3
+## Please check the latest version of Construct
 
-To avoid reporting bugs we've already fixed, please verify the issue happens in the latest version of Construct 3, including the [latest beta release](https://editor.construct.net/beta). You can find [all Construct releases here](https://www.construct.net/en/make-games/releases).
+To avoid reporting bugs we've already fixed, please verify the issue happens in the latest version of Construct, including the [latest beta release](https://editor.construct.net/beta). You can find [all Construct releases here](https://www.construct.net/en/make-games/releases).
 
 ## Use the bug report template
 
@@ -36,11 +36,11 @@ The project should be as minimal as possible, using the **fewest events and obje
 
 ### How to include a project
 
-Please save a single-file Construct 3 project. These have the file extension **.c3p**
+Please save a single-file project. These have the file extension **.c3p**
 
 You can save a project like this by choosing **Menu** -> **Project** -> **Save As** -> **Download a copy**.
 
-The .c3p file can be shared publicly on free file hosting services like [Dropbox](https://www.dropbox.com), [OneDrive](https://onedrive.live.com) or [Google Drive](https://drive.google.com). Alternatively if you add the file to a zip, or rename the .c3p extension to .zip, it can be attached to the GitHub issue. (GitHub will not accept a file ending in .c3p. Also, Construct 3 can still directly open projects from a zip if it is actually a .c3p file.)
+The .c3p file can be shared publicly on free file hosting services like [Dropbox](https://www.dropbox.com), [OneDrive](https://onedrive.live.com) or [Google Drive](https://drive.google.com). Alternatively if you add the file to a zip, or rename the .c3p extension to .zip, it can be attached to the GitHub issue. (GitHub will not accept a file ending in .c3p. Also, Construct can still directly open projects from a zip if it is actually a .c3p file.)
 
 If you choose a different file host and it spams us with ads, asks us to sign up or enter information, or expires by the time we look at it, we will not investigate the bug. We recommend the three services mentioned previously since they work well.
 
