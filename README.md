@@ -20,7 +20,7 @@ To avoid reporting bugs we've already fixed, please verify the issue happens in 
 
 ## Use the bug report template
 
-The bug submission page is pre-filled with a template. Do not delete it - **we need all this information to be able to help you.** Please provide as much of the requested information as you can, including the system details or crash report information with every report.
+The bug submission page is pre-filled with a template. Do not delete it - **we need all this information to be able to help you.** Please provide as much of the requested information as you can, including the system details or crash report information with every report. Provide this information in full every time - don't refer to other issues, forum posts elsewhere, etc. so the report includes all the necessary information by itself.
 
 ## Only mention one problem per issue
 
@@ -50,11 +50,11 @@ We deal with thousands of reports, and many are difficult problems. To help us q
 
 - has the fewest events and objects possible
 - is automatic (not requiring any user input, since it varies a lot between people and simplifies the steps to reproduce)
-- reproduces the problem as quickly as possible (within a couple of seconds)
+- reproduces the problem as quickly as possible (within a couple of seconds or with the fewest necessary steps to follow after opening the project)
 
 ## A project is more useful than a video
 
-Often users attach videos with bug reports. This is not always as useful as you might think: we cannot debug videos to figure out what is going on. Attaching a project is far more useful. Additionally reports with well-written steps to reproduce are usually quicker to deal with, which is important given that we deal with thousands of reports.
+Often users attach videos with bug reports. This is not always as useful as you might think: we cannot debug videos to figure out what is going on. Attaching a project is far more useful. Additionally reports with short and well-written steps to reproduce are usually quicker to deal with, which is important given that we deal with thousands of reports.
 
 In general you can probably skip attaching a video unless we ask for one. They can be helpful if we are having trouble reproducing the problem from the written steps to reproduce, since we can watch exactly what you are doing. If you don't mind sparing the time, you could attach a video alongside written steps to reproduce just in case we need it.
 
