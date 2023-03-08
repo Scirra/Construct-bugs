@@ -16,7 +16,7 @@ assignees: ''
 
 ## Attach a .c3p
 
-<!-- A minimal Construct 3 project (.c3p) is required to be attached. Your issue will likely be closed without investigation if you don't provide one. Please see the guidelines -->
+<!-- A minimal Construct project (.c3p) is required to be attached. Your issue will likely be closed without investigation if you don't provide one. Please see the guidelines -->
 
 ## Steps to reproduce
 
