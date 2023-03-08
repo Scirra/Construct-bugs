@@ -1,6 +1,6 @@
 # Construct bug reports
 
-This is where we handle public bug report submissions for [Construct](https://www.construct.net/).
+This is where we handle public bug report submissions for [Construct 3 and Construct Animate](https://www.construct.net/).
 
 # Read these guidelines or your bug may be closed!
 
@@ -16,7 +16,10 @@ Many bug reports are actually just mistakes in events, or misunderstood features
 
 ## Please check the latest version of Construct
 
-To avoid reporting bugs we've already fixed, please verify the issue happens in the latest version of Construct, including the [latest beta release](https://editor.construct.net/beta). You can find [all Construct releases here](https://www.construct.net/en/make-games/releases).
+To avoid reporting bugs we've already fixed, please verify the issue happens in the latest version of Construct, including the latest beta release.
+
+- Construct 3: [open the latest beta release here](https://editor.construct.net/beta) or [view all Construct releases here](https://www.construct.net/en/make-games/releases).
+- Construct Animate: [open the latest beta release here](https://animate.construct.net/beta) or [view all Construct releases here](https://www.construct.net/en/animation-software/releases).
 
 ## Use the bug report template
 
