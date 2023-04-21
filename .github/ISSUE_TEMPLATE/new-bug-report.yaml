@@ -15,7 +15,7 @@ body:
     id: attach
     attributes:
       label: Attach a .c3p
-      description: "A minimal Construct project (.c3p) is required to be attached. Your issue will likely be closed without investigation if you don't provide one. Please see the guidelines"
+      description: "A minimal Construct project (.c3p) is required to be attached. Your issue will likely be closed without investigation if you don't provide one. Please see the guidelines."
       placeholder: Add the file to a zip, or rename the .c3p extension to .zip, it can be attached to the GitHub issue. <br>(GitHub will not accept a file ending in .c3p.)
     validations:
       required: false
@@ -23,7 +23,7 @@ body:
     id: repro
     attributes:
       label: Steps to reproduce
-      description: "These steps are essential for us to be able to help you. Usually it is impossible to investigate reports unless they include steps we can follow ourselves, so please do your best to provide specific steps. There is no need to explain how you made the attached project - just explain what to do to with the project to observe the issue."
+      description: These steps are essential for us to be able to help you. Usually it is impossible to investigate reports unless they include steps we can follow ourselves, so please do your best to provide specific steps. There is no need to explain how you made the attached project - just explain what to do to with the project to observe the issue.
       value: |
         1.
         2.
@@ -44,14 +44,36 @@ body:
       description: What did you expect to happen instead?
     validations:
       required: true
-  - type: textarea
+  - type: dropdown
+    id: release
+    attributes:
+      label: First affected release
+      description: Identifying the first version the issue started happening can help resolve the issue more quickly.
+      options:
+        - Latest Stable
+        - Latest Beta
+    validations:
+      required: true
+  - type: dropdown
     id: platforms
     attributes:
-      label: More details
-      description: Providing this information will make it more likely the issue you are reporting can be fixed quickly.<br>It's helpful to test as many browsers, platforms or export options as possible. For example an issue occurs in an Android app, does it also occur in Chrome on Windows? How about Firefox? etc.
-      value: |
-       **Affected browsers/platforms:** <!-- Chrome/Firefox/Safari/Edge, Windows/macOS/Android/iOS, etc -->
-       **First affected release:** <!-- e.g. worked in r122 but broke in r123 -->
+      label: Affected browsers/platforms
+      multiple: true
+      description: "It's helpful to test as many browsers, platforms or export options as possible. For example an issue occurs in an Android app, does it also occur in Chrome on Windows? How about Firefox? etc."
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Android
+        - iOS
+        - Linux
+        - Other
+  - type: input
+    id: version
+    attributes:
+      description: Providing this information will make it more likely the issue you are reporting can be fixed quickly.
+      label: Platform Version
   - type: textarea
     id: details
     attributes:
