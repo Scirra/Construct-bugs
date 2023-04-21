@@ -44,15 +44,14 @@ body:
       description: What did you expect to happen instead?
     validations:
       required: true
-  - type: dropdown
-    id: release
+  - type: textarea
+    id: details
     attributes:
-      label: First affected release
-      description: Identifying the first version the issue started happening can help resolve the issue more quickly.
-      multiple: true
-      options:
-        - Latest Stable
-        - Latest Beta
+      label: More details
+      description: Providing this information will make it more likely the issue you are reporting can be fixed quickly.<br>It's helpful to test as many browsers, platforms or export options as possible. For example an issue occurs in an Android app, does it also occur in Chrome on Windows? How about Firefox? etc.
+      value: |
+       **Affected browsers/platforms:** <!-- Chrome/Firefox/Safari/Edge, Windows/macOS/Android/iOS, etc -->
+       **First affected release:** <!-- e.g. worked in r122 but broke in r123 -->
   - type: textarea
     id: details
     attributes:
@@ -64,4 +63,3 @@ body:
         PASTE HERE
 
         </details>
-      
