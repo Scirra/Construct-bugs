@@ -1,0 +1,67 @@
+name: Bug Report
+description: Construct bug reports
+body:
+  - type: markdown
+    attributes:
+      value: You must use this template or your issue will be closed without investigation. Please see the guidelines.
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Problem description
+      description: Enter a concise description of your problem here
+    validations:
+      required: true
+  - type: textarea
+    id: attach
+    attributes:
+      label: Attach a .c3p
+      description: "A minimal Construct project (.c3p) is required to be attached. Your issue will likely be closed without investigation if you don't provide one. Please see the guidelines"
+      placeholder: Add the file to a zip, or rename the .c3p extension to .zip, it can be attached to the GitHub issue. <br>(GitHub will not accept a file ending in .c3p.)
+    validations:
+      required: false
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: "These steps are essential for us to be able to help you. Usually it is impossible to investigate reports unless they include steps we can follow ourselves, so please do your best to provide specific steps. There is no need to explain how you made the attached project - just explain what to do to with the project to observe the issue."
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: observed-result
+    attributes:
+      label: Observed result
+      description: What do you see happen?
+    validations:
+      required: true
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: Expected result
+      description: What did you expect to happen instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: release
+    attributes:
+      label: First affected release
+      description: Identifying the first version the issue started happening can help resolve the issue more quickly.
+      multiple: true
+      options:
+        - Latest Stable
+        - Latest Beta
+  - type: textarea
+    id: details
+    attributes:
+      label: System details
+      description: If you see a crash report dialog, please copy and paste it to where it says "PASTE HERE" below. <br> Otherwise please go to Menu > About > Platform information and paste that information there instead.
+      value: |
+       <details><summary>View details</summary>
+
+        PASTE HERE
+
+        </details>
+      
