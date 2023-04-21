@@ -67,6 +67,8 @@ body:
         - Edge
         - Android
         - iOS
+        - Windows
+        - MacOS
         - Linux
         - Other
   - type: input
