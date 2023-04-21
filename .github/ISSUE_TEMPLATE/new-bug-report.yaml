@@ -45,7 +45,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: details
+    id: platforms
     attributes:
       label: More details
       description: Providing this information will make it more likely the issue you are reporting can be fixed quickly.<br>It's helpful to test as many browsers, platforms or export options as possible. For example an issue occurs in an Android app, does it also occur in Chrome on Windows? How about Firefox? etc.
@@ -60,6 +60,6 @@ body:
       value: |
        <details><summary>View details</summary>
 
-        PASTE HERE
+       PASTE HERE
 
-        </details>
+       </details>
