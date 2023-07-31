@@ -8,7 +8,7 @@ Unfortunately, many users file bugs which are useless because they don't contain
 
 ## Always follow the guidelines, every time
 
-Most bugs are not actually obvious, even if they look obvious to you. Usually issues actually only happen in a very specific set of circumstances, which you happen to have. These guidelines are designed to make sure we can figure out what's going on. So please never skip any part of the guidelines, no matter how obvious you think the problem is, or how many issues you've filed before - skipping any details will likely make it much more difficult to help you.
+Most bugs are not actually obvious, even if they look obvious to you. Often issues actually only happen in a very specific set of circumstances, which you happen to have. These guidelines are designed to make sure we can figure out what's going on. So please never skip any part of the guidelines, no matter how obvious you think the problem is, or how many issues you've filed before - we really need all this information every time, and skipping any details will likely make it much more difficult for us to help you.
 
 ## Make sure it's really a bug
 
@@ -20,6 +20,8 @@ To avoid reporting bugs we've already fixed, please verify the issue happens in 
 
 - Construct 3: [open the latest beta release here](https://editor.construct.net/beta) or [view all Construct releases here](https://www.construct.net/en/make-games/releases).
 - Construct Animate: [open the latest beta release here](https://animate.construct.net/beta) or [view all Construct releases here](https://www.construct.net/en/animation-software/releases).
+
+If something used to work but was accidentally broken by an update, it is very useful to tell us **which release it broke in.** This is what the *First affected release* field of the bug report template is for. For example if something worked in all releases up to r300, and was then broken in all releases from r301 onwards, then please enter r301 as the first affected release. (Please don't just enter whichever version you happened to test, as this is misleading and could make it take longer to deal with the issue.)
 
 ## Use the bug report template
 
@@ -61,6 +63,10 @@ Often users attach videos with bug reports. This is not always as useful as you 
 
 In general you can probably skip attaching a video unless we ask for one. They can be helpful if we are having trouble reproducing the problem from the written steps to reproduce, since we can watch exactly what you are doing. If you don't mind sparing the time, you could attach a video alongside written steps to reproduce just in case we need it.
 
+## Issues must have real-world relevance
+
+With a complex piece of software like Construct, it can be possible to create deliberately obscure projects, or intentionally obscure sequences of steps, that can produce unexpected results or even crashes. However if nobody using Construct in a normal fashion ever encounters such problems, then they have no relevance to the real-world usage of Construct. We are committed to developing robust, quality software that customers can depend on. However we have found that fixing such issues is basically a waste of time, and can in fact degrade the quality of Construct, as every change carries a risk of causing other problems. So while in theory it is useful to report such issues "just in case" someone runs in to it, in practice it is not. We are a small team with limited resources, and we want to focus our limited time on supporting people using Construct for real-world purposes, rather than dealing with difficult and time-consuming problems that are irrelevant to customers. So we may sometimes close issues without fixing them if we feel the report involved deliberately hunting for problems, or otherwise does not represent realistic use of Construct.
+
 ## Community guidelines
 Our staff are here to help you. We have experienced engineers who have dealt with thousands of bug reports. The vast majority of reporters are helpful and are happy to work with us. However if you don't co-operate or are unnecessarily combative in dealing with staff, we will close your report and stop investigating it. We will resume investigation on the report if someone files it complying with the guidelines. For more details please refer to the [Forum & Community guidelines](https://www.construct.net/en/forum/general/open-topic-33/forum-community-guidelines-141035) which also apply to bug reports.
 
@@ -98,13 +104,13 @@ We do look at every report, but developer and release schedules mean we may not 
 
 Some bugs may conclude as really being bugs in the browser or platform, rather than being a problem with Construct. This includes any problem where the browser itself crashes or does a "sad tab" (where the tab replaces its content with a message saying it encountered a problem or crashed and you have to reload it) - Construct's code cannot normally cause this, only problems with the browser itself. You may be asked to report the problem directly to the browser maker instead. Here are the links to report problems in browsers:
 
-Chromium (Google Chrome, NW.js, Cordova on Android): [crbug.com](https://crbug.com)
+Chromium (Google Chrome, Microsoft Edge, NW.js, Cordova on Android): [crbug.com](https://crbug.com)
 
-NW.js (issues that happen in NW.js only, and not the other Chromium-based platforms): [NW.js issues](https://github.com/nwjs/nw.js/issues)
+Safari (Mac, iOS, Cordova on iOS): [WebKit Bugzilla](https://bugs.webkit.org/)
 
 Firefox: [Mozilla Bugzilla](https://bugzilla.mozilla.org/)
 
-Safari (Mac, iOS, Cordova on iOS): [WebKit Bugzilla](https://bugs.webkit.org/)
+NW.js (issues that happen in NW.js only, and not the other Chromium-based platforms): [NW.js issues](https://github.com/nwjs/nw.js/issues)
 
 # Get started
 
