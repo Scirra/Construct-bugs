@@ -1,6 +1,6 @@
 ---
 name: New bug report
-about: Use this option to report a new issue with Construct. Be sure to review the bug report guidelines, or your issue may be closed.
+about: Use this option to report a new issue with Construct. Be sure to review the bug report guidelines, or your issue may be closed without being investigated.
 title: ''
 labels: ''
 assignees: ''
