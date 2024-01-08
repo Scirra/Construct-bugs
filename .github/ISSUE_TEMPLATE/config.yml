@@ -3,3 +3,6 @@ contact_links:
   - name: Construct forum
     url: https://www.construct.net/en/forum
     about: For general help using Construct, post to the forum.
+  - name: Feature requests
+    url: https://github.com/Scirra/Construct-feature-requests
+    about: For feature requests and other suggestions, please file an issue on our separate tracker.
