@@ -40,7 +40,7 @@ assignees: ''
 
 **Affected browsers/platforms:** <!-- Chrome/Firefox/Safari, Windows/macOS/Android, etc -->
 
-<!-- Identifying the first version the issue started happening can help resolve the issue more quickly. -->
+<!-- Identifying the first version the issue started happening can help resolve the issue more quickly. PLEASE NOTE: do not just enter the release you happened to test, as this is actually misleading - to fill this out correctly please test older releases. -->
 
 **First affected release:** <!-- e.g. worked in r122 but broke in r123 -->
 
