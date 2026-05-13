@@ -37,9 +37,9 @@ body:
       label: Steps to reproduce
       description: Please write numbered steps we can follow after opening your project to observe the reported issue. There is no need to describe how you made your project. Please be as specific and clear as possible.
       value: |
-        1.
-        2.
-        3.
+        1. 
+        2. 
+        3. 
     validations:
       required: true
   - type: textarea
@@ -56,18 +56,11 @@ body:
       description: What did you expect to happen instead?
     validations:
       required: true
-  - type: textarea
-    id: platform-info
-    attributes:
-      label: Platform information
-      description: On a device exhibiting the issue, please load Construct, choose **Menu > About**, click **Platform information**, click **Copy**, and then paste the result in to this field.
-    validations:
-      required: true
   - type: dropdown
     id: affected-platforms
     attributes:
       label: Affected platforms
-      description: If only certain platforms are affected, please indicate which. Providing this information can help us resolve the problem more quickly.
+      description: If only certain platforms are affected, please indicate which. You can select more than one. Providing this information can help us resolve the problem more quickly.
       multiple: true
       options:
         - Windows
@@ -80,7 +73,7 @@ body:
     id: affected-browsers
     attributes:
       label: Affected browsers
-      description: If only certain browsers are affected, please indicate which. Providing this information can help us resolve the problem more quickly.
+      description: If only certain browsers are affected, please indicate which. You can select more than one. Providing this information can help us resolve the problem more quickly.
       multiple: true
       options:
         - Chrome
@@ -103,3 +96,10 @@ body:
     attributes:
       label: Additional remarks
       description: If there is anything else you'd like to mention, you can write it here.
+  - type: textarea
+    id: platform-info
+    attributes:
+      label: Platform information
+      description: On a device exhibiting the issue, please load Construct, choose **Menu > About**, click **Platform information**, click **Copy**, and then paste the result in to this field.
+    validations:
+      required: true
