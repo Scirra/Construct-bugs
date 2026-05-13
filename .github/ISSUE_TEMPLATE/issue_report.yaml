@@ -1,4 +1,4 @@
-name: Issue report
+name: New issue report
 description: Submit a new issue report for Construct. Please review the bug report guidelines and fill out all the required fields, otherwise we may be unable to help you.
 body:
   - type: markdown
