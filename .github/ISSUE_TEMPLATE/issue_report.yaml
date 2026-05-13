@@ -25,7 +25,7 @@ body:
     validations:
       required: true
   - type: upload
-    id: Project file
+    id: project-file
     attributes:
       label: Upload a project
       description: Please upload a minimal project file demonstrating the issue. Zip the project file to allow upload, or rename .c3p to .zip.
@@ -47,13 +47,6 @@ body:
     attributes:
       label: Observed result
       description: After opening the project and following the steps, what do you see happen?
-    validations:
-      required: true
-  - type: textarea
-    id: expected-result
-    attributes:
-      label: Expected result
-      description: What did you expect to happen instead?
     validations:
       required: true
   - type: textarea
