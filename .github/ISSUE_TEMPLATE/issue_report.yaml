@@ -100,6 +100,6 @@ body:
     id: platform-info
     attributes:
       label: Platform information
-      description: On a device exhibiting the issue, please load Construct, choose **Menu > About**, click **Platform information**, click **Copy**, and then paste the result in to this field.
+      description: On a device exhibiting the issue, please load Construct, choose **Menu > About**, click **Copy platform information for issue report**, and then paste the result in to this field.
     validations:
       required: true
