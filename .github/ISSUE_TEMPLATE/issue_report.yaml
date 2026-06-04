@@ -84,13 +84,13 @@ body:
   - type: input
     id: last-unaffected-release
     attributes:
-      label: Last unaffected release
-      description: If this issue relates to something that used to work but is now broken, please provide the latest Construct release that worked before it broke, e.g. r401. Providing this information can help us resolve the problem more quickly.
+      label: Last unaffected release (including beta releases)
+      description: If this issue relates to something that used to work but is now broken, please provide the latest Construct release that worked before it broke, e.g. r401. Please also test beta releases. Providing this information can help us resolve the problem more quickly.
   - type: input
     id: first-affected-release
     attributes:
-      label: First affected release
-      description: If this issue relates to something that used to work but is now broken, please provide the earliest Construct release that had the issue, e.g. r402. Providing this information can help us resolve the problem more quickly.
+      label: First affected release (including beta releases)
+      description: If this issue relates to something that used to work but is now broken, please provide the earliest Construct release that had the issue, e.g. r402. Please also test beta releases. This field should be a single release ahead of the last unaffected release. Providing this information can help us resolve the problem more quickly.
   - type: textarea
     id: additional-remarks
     attributes:
